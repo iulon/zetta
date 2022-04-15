@@ -1,4 +1,7 @@
 
+body{
+    padding: 0 5px;
+}
 .header{
     max-width: 1366px;
     width: 100%;
@@ -54,8 +57,8 @@ nav ul li a:hover{
     position: relative;
     top: 169px;
 }
+/* section 1 */
 .sec-1-h1{ 
-    margin: auto;
     width: 576px;
     height: 160px;
     color: white;
@@ -153,7 +156,7 @@ nav ul li a:hover{
     padding: 0px;
     cursor: pointer;
 }
-/* secton 2 */
+/* section 2 */
 .sec-2{
     max-width: 1366px;
     width: 100%;
@@ -217,9 +220,10 @@ nav ul li a:hover{
 .sec-3{
     max-width: 1366px;
     width: 100%;
-    height: 615px;
+    padding-bottom: 100px;
     margin: auto;
     background-image: url('../../images/bg2.png');
+    background-image: cover;
     padding-top: 90px;
 }
 .sec-3-1{
@@ -323,18 +327,19 @@ nav ul li a:hover{
 .sec-4{
     max-width: 1366px;
     width: 100%;
-    height: 487px;
     margin: auto;
     display: flex;
     margin-bottom: 90px;
 }
 .sec-4-1{
     width: 783px;
+    height: 487px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-left: 139px;
     background-color: #F8F8F8;
+    position: relative;
 }
 .sec-4-1 > h4{
     font-size: 14px;
@@ -394,15 +399,16 @@ nav ul li a:hover{
 .blue{
     background-color: #5863F8;
 }
-.sec-4-img{
+.lef{
     position: absolute;
+    right: 0px;
+    bottom: 0px;
 }
-.sec-4-next{
+.sec-4-2{
     display: flex;
     position: relative;
-    left: -60px;
-    top: 88%;
 }
+
 .sec-4-arrow{
     width: 60px;
     height: 60px;
@@ -416,11 +422,14 @@ nav ul li a:hover{
 .sec-4-arrow:hover{
     background-color: #ffffff;
 }
-.right{
+.righ{
     background-color: #EEEEEE;
     transition: 0.5s;
+    position: absolute;
+    left: 0;
+    bottom: 0;
 }
-.right:hover{
+.righ:hover{
     background-color: #5863F8;
 }
 /* section 5 */
@@ -428,8 +437,13 @@ nav ul li a:hover{
     max-width: 1366px;
     width: 100%;
     margin: auto;
-    padding-left: 139px;
-   padding-bottom: 90px;
+    padding-bottom: 90px;
+}
+.sec-5-all{
+    width: 1088px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
 }
 .sec-5-1 > h4{
     font-size: 14px;
@@ -456,9 +470,13 @@ nav ul li a:hover{
     height: 190px;
     display: flex;
     background-color: #F8F8F8;
+    position: relative;
 }
 .one{
     margin-right: 16px;
+    margin-bottom: 16px;
+}
+.tw{
     margin-bottom: 16px;
 }
 .tree{
@@ -495,39 +513,16 @@ nav ul li a:hover{
     width: 60px;
     height: 60px;
     background-color: #5863F8;
-    position: relative;
-    top: -15px;
-    right: -293px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
     
 }
-.first{
-    width: 60px;
-    height: 60px;
-    background-color: #5863F8;
-    position: relative;
-    top: -33px;
-    right: -293px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-}
-.third{
-    width: 60px;
-    height: 60px;
-    background-color: #5863F8;
-    position: relative;
-    top: -33px;
-    right: -293px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-}
+
 .sec-5-arrow:hover{
     opacity: 0.5;
 }
@@ -536,8 +531,13 @@ nav ul li a:hover{
     max-width: 1366px;
     width: 100%;
     margin: auto;
-    padding-left: 139px;
     padding-bottom: 90px;
+}
+.sec-6-all{
+    width: 1088px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
 }
 .sec-6-1 > h4{
      font-size: 14px;
@@ -642,11 +642,11 @@ nav ul li a:hover{
 .container{
     max-width: 1366px;
     width: 100%;
-    height: 395px;
+    /* height: 395px; */
     margin: auto;
     background-color: black;
     display: flex;
-   flex-direction: column;
+    flex-direction: column;
     padding-top: 90px;
 }
 .footer1{
@@ -766,6 +766,7 @@ nav ul li a:hover{
     font-family: 'Poppins', sans-serif;
     color: #B1B1B1;
     padding-right: 355px;
+    padding-bottom: 50px;
 }
 .marian{
     color: #3B5998;
@@ -775,4 +776,5 @@ nav ul li a:hover{
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
     color:#3B5998;
+    padding-bottom: 50px;
 }

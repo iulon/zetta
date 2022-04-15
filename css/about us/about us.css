@@ -381,7 +381,7 @@ nav ul li a:hover{
     margin: auto;
     background-color: black;
     display: flex;
-   flex-direction: column;
+    flex-direction: column;
     padding-top: 90px;
 }
 .footer1{

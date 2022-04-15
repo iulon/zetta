@@ -1,0 +1,575 @@
+@media (max-width:1320px){
+    .sec-4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .sec-4-img{
+        width: 783px;
+        height: 487px;
+    }
+    .lef{
+        bottom: 0px;
+        left: 0px;
+    }
+    .righ{
+        top: 0;
+    }
+}@media (max-width:1250px){
+    .footer1{
+        padding-left: 100px;
+    }
+    .footer-1{
+        margin-right: 150px;
+    }
+    .last{
+        padding-left: 100px;
+    }
+    .last > p{
+        padding-right: 250px;
+    }
+}
+@media (max-width:1200px){
+    .sec-3-next{
+        display: none;
+    }
+}
+@media (max-width:1110px){
+    
+    .tittle{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .sec-1-h1{
+        margin-left: 0px;
+        text-align: center;
+    }
+    .sec-1-p{
+        margin-left: 0px;
+        text-align: center;
+    }
+    .next{
+        width: 900px;
+    }
+    .check{
+        width: 900px;
+    }
+    .check form div input{
+        width: 230px;
+        height: 50px;
+        font-size: 13px;
+    }
+    .sec-3-1{
+        padding-left: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .cards{
+        width: 240px;
+    }
+    .sec-5-cards{
+        display: flex;
+        flex-direction: column;
+    }
+    .sec-5-all{
+        width: 900px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .sec-5-1{
+        text-align: center;
+    }
+    .one{
+        margin-right: 0px;
+    }
+    .tree{
+        margin-right: 0px;
+        margin-bottom: 16px;
+    }
+    .cards5{
+        width: 600px;
+        height: 200px;
+    }
+    .sec-6-cards{
+        display: flex;
+        flex-direction: column;
+    }
+    .cards6{
+        margin-right: 0px;
+        margin-bottom: 16px;   
+    }
+    .cards6:last-child{
+        margin-bottom: 0px;
+    }
+    .sec-6-all{
+        width: 900px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .sec-6-1{
+        text-align: center;
+    }
+    .sec-7-photos > img{
+        width: 300px;
+    }
+    .last{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .last > p{
+        padding-right: 0px ;
+        padding-bottom: 15px;
+    }
+    .footer1{
+        padding-left: 0px;
+        margin: auto;
+    }
+    .footer-1{
+        margin-right: 150px;
+    }
+    .last{
+        padding-left: 0px;
+        margin: auto;
+    }
+    .last > a{
+        padding-bottom: 10px;
+    }
+}
+@media(max-width:1000px){
+    .header > nav > ul{
+        display: none;
+    }
+    .sec-2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sec-2-1{
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .cards{
+        width: 340px;
+        margin-bottom: 20px;
+    }
+
+    .sec-3-2{
+        display: flex;
+        flex-wrap: wrap; 
+    }
+    .footer1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .title{
+        text-align: center;
+        margin-right: 0px;
+        margin-bottom: 50px;
+    }
+    .title:last-child{
+        margin-bottom: 0px;
+    }
+}
+@media(max-width:940px){
+    .next{
+        width: 700px;
+    }
+    .check{
+        width: 700px;
+    }
+    .check form div input{
+        width: 180px;
+        height: 40px;
+        font-size: 13px;
+    }
+    .sec-7-photos > img{
+        width: 250px;   
+    }
+    .sec-7-tittle{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-left: 0px;
+    }
+}
+@media(max-width:900px){
+   
+    
+    .sec-5-all{
+        width: 600px;
+    }
+    .sec-6-all{
+        width: 600px;
+    }
+    
+}
+@media(max-width:805px){
+    .sec-4-1{
+        width: 600px;
+    }
+    .sec-4-1 > h1{
+        width: 420px;
+        font-size: 32px;
+    }
+    .sec-4-2{
+        width: 600px;
+    }
+}
+@media(max-width:780px){
+    .check{
+        width: 300px;
+        height: 450px;
+    }
+    .next{
+        display: none;
+        
+    }
+    .check > form{
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 200px;
+    }
+    .send{
+        width: 180px;
+    }
+    .sec-7-photos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .sec-7-photos > img{
+        width: 400px;
+        margin-bottom: 20px;
+    }
+    .sec-7-photos > img:last-child{
+        margin-bottom: 0px;
+    }
+}
+@media(max-width:620px){
+    .sec-1-h1{
+        width: 400px;
+        height: 100px;
+        font-size: 42px;
+    }
+    .sec-2-1{
+        width: 400px;
+        height: 400px;
+        padding-top: 0px;
+    }
+    .sec-2-2{
+        width: 400px;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .img1{
+        padding-right: 0px;
+        padding-bottom: 15px;
+    }
+    .img3{
+        width: 260px;
+        height: 185px;
+    }
+    .sec-4-1{
+        width: 400px;
+        height: 380px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding-top: 40px;
+        padding-left: 0px;
+    }
+    .sec-4-1 > h1{
+        width: 350px;
+        height: 60px;
+        font-size: 22px;
+        text-align: center;
+        line-height: 30px;
+    }
+    .sec-4-1 > p{
+        text-align: center;
+    }
+    .sec-4-2{
+        width: 400px;
+    }
+    .sec-4-img{
+        width: 400px;
+        height: 380px;
+    }
+    .sec-5-all{
+        width: 300px;
+    }
+    .sec-5-1{
+        width: 300px;
+    }
+    .sec-5-1 > h1{
+        width: 300px;
+        height: 60px;
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .sec-5-2{
+        width: 300px;
+    }
+    .sec-5-cards{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .cards5{
+        width: 300px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: ;
+        align-items: center;
+    }
+    .cards5 > img{
+        width: 300px;
+        height: 250px;
+        padding-right: 0px;
+    }
+    .cards-title{
+        text-align: center;
+    }
+    .cards-title > h5{
+        padding-top: 15px;
+    }
+    .sec-5-arrow{
+        display: none;
+    }
+    .one{
+        margin-bottom: 40px;
+    }
+    .sec-6-all{
+        width: 300px;
+    }
+    .sec-6-1 > h1{
+        width: 300px;
+        height: 60px;
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .sec-6-2{
+        width: 300px;
+    }
+    .cards6{
+        width: 300px;
+        height: 360px;  
+    }
+    .sec-6-tittle{
+        width: 300px;
+    }
+    /* section 7 */
+    .sec-7-tittle > h1{
+        width: 300px;
+        height: 90px;
+        font-size: 22px;
+        line-height: 40px;
+        margin-bottom: 30px;
+     }
+     .sec-7-photos > img{
+         width: 300px;
+     }
+     /* footer */
+     .last > p{
+         width: 300px;
+         text-align: center;
+         line-height: 20px;
+     }
+}
+@media(max-width:420px){
+    .sec-1-h1{
+        width: 300px;
+        font-size: 32px;
+    }
+    .sec-1-p{
+        width: 300px;
+        font-size: 12px;
+    }
+    /* section 2 */
+    .sec-2{
+        width: 300px;
+    }
+    .sec-2-1{
+        width: 300px;
+    }
+    .sec-2-1 > h1{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .p-1{
+        font-size: 14px;
+    }
+    .p-2{
+        font-size: 14px;
+    }
+    .sec-2-2{
+        width: 300px;
+    }
+    /* section 3 */
+    .sec-3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sec-3-1{
+        width: 300px;
+    }
+    .sec-3-1 > h1{
+        width: 300px;
+        font-size: 30px;
+    }
+    .sec-3-2{
+        width: 300px;
+    }
+    /* section 4 */
+    .sec-4{
+        width: 270px;
+    }
+    .sec-4-1{
+        width: 270px;
+    }
+    .sec-4-1 > h1{
+        width: 270px;
+    }
+    .sec-4-1 > p{
+        width: 270px;
+        font-size: 12px;
+    }
+    .sec-4-img{
+        width: 270px;
+        height: 300px;
+    }
+    .sec-4-arrow{
+        width: 50px;
+        height: 50px;
+    }
+}
+@media(max-width:320px){
+    .sec-1-h1{
+        width: 270px;
+        height: 80px;
+        font-size: 28px;
+    }
+    .sec-1-p{
+        width: 270px;
+        font-size: 10px;
+    }
+    .check{
+        width: 250px;
+        height: 450px;
+        
+    }
+    .check > form{
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+    }
+    /* section 2 */
+    .sec-2{
+        width: 270px;
+    }
+    .sec-2-1{
+        width: 270px;
+    }
+    .sec-2-2{
+        width: 270px;
+    }
+    /* section 3 */
+    .sec-3{
+        width: 270px;
+    }
+    .sec-3-1{
+        width: 270px;
+    }
+    .sec-3-1 > h1{
+        width: 270px;
+    }
+    .sec-3-2{
+        width: 270px;
+    }
+    .cards{
+        width: 260px;
+    }
+    /* section 5 */
+    .sec-5-all{
+        width: 270px;
+    }
+    .sec-5-1{
+        width: 270px;
+    }
+    .sec-5-1 > h1{
+        width: 270px;
+    }
+    .sec-5-2{
+        width: 280px;
+    }
+    .cards5{
+        width: 270px;
+    }
+    .cards5 > img{
+        width: 270px;
+    }
+    /* section 6 */
+    .sec-6-all{
+        width: 270px;
+    }
+    .sec-6-1{
+        width: 270px;
+    }
+    .sec-6-1 > h1{
+        width: 270px;
+    }
+    .sec-6-2{
+        width: 270px;
+    }
+    .sec-6-cards{
+        width: 270px;
+    }
+    .cards6{
+        width: 270px;
+    }
+    .cards6 > img{
+        width: 270px;
+    }
+    .sec-6-tittle{
+        width: 270px;
+    }
+    /* section 7 */
+    .sec-7-tittle >h1{
+        width: 270px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .sec-7-photos > img{
+        width: 270px;
+    }
+    /* footer */
+    .last > p{
+        width: 270px;
+    }
+}
